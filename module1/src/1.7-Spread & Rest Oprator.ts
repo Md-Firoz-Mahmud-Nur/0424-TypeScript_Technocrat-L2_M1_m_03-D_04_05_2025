@@ -25,6 +25,4 @@
     friends.forEach((friend: string) => console.log(`Hi ${friend}`));
   };
   greenFriends("Firoz", "Mahmud", "Nur");
-
-  // Destructuring
 }
