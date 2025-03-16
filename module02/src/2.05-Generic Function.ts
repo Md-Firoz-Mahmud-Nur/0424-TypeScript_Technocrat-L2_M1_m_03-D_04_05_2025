@@ -41,8 +41,6 @@
     devType: "NLWD",
   });
 
-  console.log(student1);
-
   const student2 = addCourseToStudents({
     name: "Nur",
     email: "a@b.com",
