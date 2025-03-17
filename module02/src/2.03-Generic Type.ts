@@ -12,17 +12,19 @@
   // const boolArray: boolean[] = [true, false, true];
   const boolArray: GenericArray<boolean> = [true, false, true];
 
-  const user: GenericArray<{
+  interface User {
     name: string;
-    age: number | string;
-  }> = [
+    age: number;
+  }
+
+  const user: GenericArray<User> = [
     {
       name: "Nur",
       age: 20,
     },
     {
       name: "Firoz",
-      age: "20",
+      age: 20,
     },
   ];
 
